@@ -14,7 +14,8 @@
 
 ros::NodeHandle  nh;
 riki_msgs::Battery raw_battery_msg;
-
+//
+//
 ros::Publisher raw_battery_pub("battery", &raw_battery_msg);
 typedef union {
         float real;
